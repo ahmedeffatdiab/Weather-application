@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="img/img/logo.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
+    <!-- the start of Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark " >
+        <div class="container">
+            <div class="navbar-logo d-flex flex-row">
+            <img src="img/img/logo.png">
+            <div class="text-white mx-4 ">
+                <h6 class="my-1">Weather</h6>
+                <span class="text-muted my-1 d-block" style="font-size:12px">tagline goes here</span>
+            </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-white"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item active-link">
+                    <a class="nav-link  text-white" aria-current="page" href="#main">Home</a>
+                </li>
+                <li class="nav-item" >
+                    <a  class="nav-link text-white" href="#News">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">Contact</a>
+                </li>
+                
+                
+            
+            </div>
+        </div>
+        </nav>
+    <!-- the end of Navabr -->
+
+    <!-- the start of main section  -->
+
+
+        <section class="main  w-100" id="main">
+                <div class="image-bg ">
+                    <div class="container py-5">
+                        <div class="d-flex justify-content-between search-content">
+                            <input type="text" id="input" placeholder="Find your location .....">
+                            <button class="btn btn-primary">find</button>
+                        </div>
+                    
+                </div>
+                </div>
+                <div class="container">
+                    <div class="main-row rounded">
+                        <div class="first-child " id="first-child">
+                            <div>
+                            </div>
+                        </div>
+                        <div class="second-child d-flex justify-content-between" id="second-child">
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            
+        </section>
+
+
+    <!-- the end of main section  -->
+    <div style="color:white" class="container">
+        <div class="news" id="News" style="margin-top: 20px;" >
+            <div class="text-white text-center">
+                <h3 class="heading">News</h3>
+                <p class="linespain"></p>
+            </div>
+            <div class="row" id="NewsDisplay" style="padding-top: 40px;">
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- the Start of about section-->
+    
+    <section class="About w-100" id="About">
+        <div class="text-white text-center my-5">
+            <h3 class="heading">About</h3>
+            <p class="linespain"></p>
+        </div>
+        <div class="container">
+            <div class="About-content row">
+                <div class="col-md-5 col-sm-12 position-relative" class="overflow:hidden">
+                        <img class="img-fluid"src="img/img/hero.jpg" alt="hero-image" style="height:90%; margin-left:25px">
+                        <div class="about-dotted"></div>
+                </div>
+                <div class="col-md-7 col-sm-12">
+                    <h2 class="fw-bolder" style="font-family:  'Montserrat', sans-serif;"> About Me.</h2>
+                    <p class="text-muted">Company for Prediction for Weather</p>
+                    <p class="text-white"> 
+                        We are a company that forecasts the weather for the current day and the next two days according to the country that the user enters. We also provide news around the world with a special source for each news.</p>
+
+                        <p class="text-primary"><i class="fa-solid fa-envelope"></i> email :  ahmedeffatdiab@gmail.com</p>
+                        <p class="text-primary"><i class="fa-solid fa-location-dot"></i> location : New York</p>
+                        <p class="text-primary"><i class="fa-solid fa-phone"></i></i> Phone : +1 212-477-3063</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- the End of about section-->
+    <div class="contact-main pt-5 mt-5 " id="contact">
+        <div class="container">
+            <div class="text-white text-center my-5">
+                <h3 class="heading">Contact</h3>
+                <p class="linespain"></p>
+            </div>
+            <div class=" collect-data ">
+                <div class="conact-box position-relative" style="background-color:#262936">
+                    <!-- <div class=" text-muted d-flex location "> -->
+                        <!-- <i class=" px-2 fa-sharp fa-solid fa-location-dot text-white"></i>
+                        <address>Company Name INC.<br>
+                            2803 Avenue Street, Los Angeles</address> -->
+                            <iframe style="position: relative;" src="https://maps.google.com/maps?q=egypt&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="100%"></iframe>
+                    <!-- </div> -->
+                    <div class="text-muted contact-info" style="position: absolute; bottom: 0;left:0">
+                        <img src="images/icon-phone.png">
+                        <span>+1 800 314 235</span>
+                        <i class="fa-solid fa-message text-info"></i>
+                        <span>contact@companyname.com</span>
+                    </div>
+                </div>
+                <div class="conactUs text-white ">
+                    <h2>Contact us</h2>
+                    <p class="text-muted">Weather data can be complex and is continually increasing in volume thanks to advancements in computing power and weather science. The intricate data formats used for climate and weather data, such as GRIB2 and NC, demand substantial computational resources. Processing vast volumes of data can be both costly and time-consuming. Consequently, weather forecasts often arrive with significant delays, rendering them largely ineffective when they finally become available.</p>
+                    <form method="post" action="#">
+                        <div class="row g-2">
+                            <input class="form-input col-md-5" type="text" placeholder="Your name...." >
+                            <input class="form-input col-md-5" type="text" placeholder="Email Address..." >         
+                        </div>
+                        <div class="row g-2">
+                            <input class="form-input col-md-5" type="text" placeholder="Company name...." >
+                            <input class="form-input col-md-5" type="text" placeholder="Website..." >         
+                        </div>
+                        <textarea placeholder="Message..."></textarea>
+                        <button class="btn btn-primary rounded-pill float-end mx-5 my-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- the start of footer section -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-search d-flex justify-content-between align-content-center ">
+                    <input class="" type="text" autocomplete="off" placeholder="Enter you email to Us...">
+                    <button class="btn btn-primary rounded-pill">Subsribe</button>
+                </div>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook " ></i>
+                    <i class="fa-brands fa-twitter " ></i>
+                    <i class="fa-brands fa-google-plus-g " ></i>
+                    <i class="fa-brands fa-pinterest " ></i>
+                </div>
+
+            </div>
+            <span >Copyright 2014 Company name. Designed by Themezy. All rights reserved</span>
+        </div>
+    </footer>
+    <!-- the start of footer section -->
+    
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
